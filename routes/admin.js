@@ -2,7 +2,6 @@ const path = require('path');
 
 const express = require('express');
 
-// Correct variable name usage
 const productsController = require('../controllers/products');
 
 const router = express.Router();
